@@ -1,1 +1,266 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shivam Kumar Sahu | AI Chatbot Developer</title>
+<meta name="description" content="Shivam Kumar Sahu - AI Chatbot Developer building AI assistants and business automation solutions.">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #09090f;
+  color: white;
+  line-height: 1.6;
+}
+
+header {
+  padding: 22px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #242432;
+}
+
+.logo {
+  font-size: 23px;
+  font-weight: bold;
+  color: #a78bfa;
+}
+
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  margin-left: 22px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #a78bfa;
+}
+
+.hero {
+  min-height: 75vh;
+  padding: 100px 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(circle at 80% 30%, #251443, #09090f 55%);
+}
+
+.tag {
+  color: #b99aff;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+h1 {
+  font-size: clamp(38px, 7vw, 68px);
+  line-height: 1.15;
+  margin: 20px 0;
+}
+
+h1 span {
+  color: #a78bfa;
+}
+
+.hero p {
+  color: #b9b9c8;
+  max-width: 580px;
+  font-size: 17px;
+}
+
+.btn {
+  display: inline-block;
+  background: #8054df;
+  color: white;
+  padding: 13px 24px;
+  border-radius: 7px;
+  text-decoration: none;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #966ff0;
+}
+
+section {
+  padding: 75px 8%;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.about p {
+  color: #b9b9c8;
+  max-width: 750px;
+}
+
+.skills, .projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #141420;
+  border: 1px solid #29293b;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.card h3 {
+  color: #b99aff;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #b9b9c8;
+  font-size: 14px;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 16px;
+  color: #b99aff;
+  text-decoration: none;
+}
+
+.contact {
+  text-align: center;
+  background: #11111c;
+}
+
+.contact p {
+  color: #b9b9c8;
+}
+
+footer {
+  padding: 25px;
+  text-align: center;
+  color: #888;
+  border-top: 1px solid #242432;
+}
+
+@media(max-width: 650px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav a {
+    margin: 0 7px;
+    font-size: 12px;
+  }
+
+  .hero {
+    min-height: 65vh;
+    padding-top: 75px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">SHIVAM.DEV</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <div class="tag">HELLO, I'M SHIVAM</div>
+  <h1>AI Chatbot<br><span>Developer</span></h1>
+  <p>
+    I build AI-powered chatbots and automation solutions
+    that help businesses improve customer communication
+    and manage daily tasks.
+  </p>
+  <div>
+    <a class="btn" href="#projects">Explore My Work</a>
+  </div>
+</div>
+
+<section class="about" id="about">
+  <h2 class="section-title">About Me</h2>
+  <p>
+    My name is Shivam Kumar Sahu. I am an aspiring AI
+    Chatbot Developer interested in building practical
+    AI solutions for businesses. I work with Python,
+    Gemini API, Streamlit and automation tools.
+  </p>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">My Skills</h2>
+  <div class="skills">
+    <div class="card">
+      <h3>Python</h3>
+      <p>Building chatbot applications and backend logic.</p>
+    </div>
+    <div class="card">
+      <h3>Gemini API</h3>
+      <p>Connecting AI models to chatbot applications.</p>
+    </div>
+    <div class="card">
+      <h3>Streamlit</h3>
+      <p>Creating interactive web applications.</p>
+    </div>
+    <div class="card">
+      <h3>Automation</h3>
+      <p>Connecting business workflows and Google Sheets.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">My Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Salon AI Chatbot</h3>
+      <p>
+        An AI chatbot for answering salon questions
+        and helping customers with booking requests.
+      </p>
+      <a class="project-link"
+         href="https://salon-ai-chatbot-lq9nxreyqvaq9cxj3ysdzy.streamlit.app/"
+         target="_blank" rel="noopener">
+         View Live Demo →
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="section-title">Let's Work Together</h2>
+  <p>Have a project or need an AI chatbot for your business?</p>
+  <a class="btn"
+     href="mailto:shivamkumar96441718@gmail.com">
+     Contact Me
+  </a>
+</section>
+
+<footer>
+  © 2026 Shivam Kumar Sahu. All rights reserved.
+</footer>
+
+</body>
+</html>
+
